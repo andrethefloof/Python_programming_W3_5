@@ -4,7 +4,6 @@ print("1 - Celsius to Fahrenheit")
 print("2 - Fahrenheit to Celsius")
 print("0 - Exit")
 choice = input("Your choice: ")
-
 if choice == "1":
     celsius = int(input("Insert the amount of Celsius: "))
     fahrenheit = celsius * 1.8 + 32
